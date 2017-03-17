@@ -38,3 +38,9 @@ DISTFILES += \
 ```
 
 This allows for the application to be installed with `make install`, and for `linuxdeployqt` to generate an AppImage.
+
+## Generating an AppImage
+
+See [`.travis.yml`](https://github.com/probonopd/QtQuickApp/blob/master/.travis.yml) for how to compile the application on [Travis CI](https://travis-ci.org/), generate an AppImage, and upload it to transfer.sh.
+
+If you rather would not like to use Travis CI, you should be able to use the same commands on a local Ubuntu trusty machine.
