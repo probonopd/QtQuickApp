@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=QtQuickApp
-Exec=qtquickapp
+Exec=QtQuickApp
 Icon=qtquickapp
 Categories=Development;
