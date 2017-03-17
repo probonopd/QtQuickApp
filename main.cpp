@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
-    QGuiApplication::setWindowIcon(QIcon(app.applicationDirPath() + "/../share/pixmaps/qtquickapp.svg"));
+    QGuiApplication::setWindowIcon(QIcon(app.applicationDirPath() + "/../share/pixmaps/qtquickapp.png"));
 
     QQmlApplicationEngine engine;
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
