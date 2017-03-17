@@ -24,7 +24,7 @@ unix {
 
     shortcutfiles.files = qtquickapp.desktop
     shortcutfiles.path = $$PREFIX/share/applications/
-    data.files += qtquickapp.svg
+    data.files += qtquickapp.png
     data.path = $$PREFIX/share/pixmaps/
 
     INSTALLS += shortcutfiles
@@ -35,4 +35,4 @@ INSTALLS += target
 
 DISTFILES += \
     qtquickapp.desktop \
-    qtquickapp.svg
+    qtquickapp.png
