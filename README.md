@@ -1,7 +1,6 @@
 # QtQuickApp [![Build Status](https://travis-ci.org/probonopd/QtQuickApp.svg?branch=master)](https://travis-ci.org/probonopd/QtQuickApp)
 
-Demo Qt Quick application for use with linuxdeployqt
-
+Demo Qt Quick application for use with [`linuxdeployqt`](https://github.com/probonopd/linuxdeployqt).
 ## Application icon
 
 The application icon has been set in [main.cpp](https://github.com/probonopd/QtQuickApp/blob/master/main.cpp) like this:
