@@ -21,6 +21,4 @@ script:
   - ./linuxdeployqt*.AppImage ./appdir/usr/share/applications/*.desktop -bundle-non-qt-libs -qmldir=$(readlink -f /opt/qt5*/qml/)
   - ./linuxdeployqt*.AppImage ./appdir/usr/share/applications/*.desktop -appimage -qmldir=$(readlink -f /opt/qt5*/qml/)
   - find ./appdir -executable -type f -exec ldd {} \; | grep " => /usr" | cut -d " " -f 2-3 | sort | uniq
-  - curl --upload-file ./QtQuickApp
-*.AppImage https://transfer.sh/QtQuickApp
--git.$(git rev-parse --short HEAD)-x86_64.AppImage
+  - curl --upload-file ./QtQuickApp*.AppImage https://transfer.sh/QtQuickApp-git.$(git rev-parse --short HEAD)-x86_64.AppImage
