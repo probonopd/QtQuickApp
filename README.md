@@ -6,7 +6,7 @@ Demo Qt Quick application for use with [`linuxdeployqt`](https://github.com/prob
 The application icon has been set in [main.cpp](https://github.com/probonopd/QtQuickApp/blob/master/main.cpp) like this:
 
 ```
- QGuiApplication::setWindowIcon(QIcon(app.applicationDirPath() + "/qtquickapp.svg"));
+QGuiApplication::setWindowIcon(QIcon(app.applicationDirPath() + "/../share/pixmaps/qtquickapp.svg"));
 ```
 
 ## Installability
