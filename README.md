@@ -6,7 +6,7 @@ Demo Qt Quick application for use with [`linuxdeployqt`](https://github.com/prob
 The application icon has been set in [main.cpp](https://github.com/probonopd/QtQuickApp/blob/master/main.cpp) like this:
 
 ```
-QGuiApplication::setWindowIcon(QIcon(app.applicationDirPath() + "/../share/pixmaps/qtquickapp.svg"));
+QGuiApplication::setWindowIcon(QIcon(app.applicationDirPath() + "/../share/pixmaps/qtquickapp.png"));
 ```
 
 ## Installability
@@ -23,7 +23,7 @@ unix {
 
     shortcutfiles.files = qtquickapp.desktop
     shortcutfiles.path = $$PREFIX/share/applications/
-    data.files += qtquickapp.svg
+    data.files += qtquickapp.png
     data.path = $$PREFIX/share/pixmaps/
 
     INSTALLS += shortcutfiles
@@ -34,7 +34,7 @@ INSTALLS += target
 
 DISTFILES += \
     qtquickapp.desktop \
-    qtquickapp.svg
+    qtquickapp.png
 ```
 
 Note that the word `release` was added to the line
