@@ -37,6 +37,13 @@ DISTFILES += \
     qtquickapp.svg
 ```
 
+Note that the word `release` was added to the line
+
+```
+CONFIG += c++11 release
+```
+in the same file, so that the release configuration gets built.
+
 This allows for the application to be installed with `make install`, and for `linuxdeployqt` to generate an AppImage.
 
 ## Generating an AppImage
