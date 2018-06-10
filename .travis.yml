@@ -23,7 +23,7 @@ script:
 
 after_success:
   - wget -c https://github.com/probonopd/uploadtool/raw/master/upload.sh
-  - bash upload.sh APPNAME*.AppImage*
+  - bash upload.sh QtQuickApp*.AppImage*
 
 branches:
   except:
